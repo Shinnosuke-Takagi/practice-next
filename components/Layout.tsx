@@ -17,17 +17,17 @@ export const Layout = ({children, title}: Props) => {
                 <nav className="bg-gray-800 w-screen">
                     <div className="flex items-center pl-8 h-14">
                         <div className="flex space-x-4">
-                            <Link href="/">
+                            <Link href="/" passHref>
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                                     HOME
                                 </a>
                             </Link>
-                            <Link href="/blog-page">
+                            <Link href="/blog-page" passHref>
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                                     Blog
                                 </a>
                             </Link>
-                            <Link href="/contact-page">
+                            <Link href="/contact-page" passHref>
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                                     Contact
                                 </a>

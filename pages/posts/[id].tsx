@@ -1,7 +1,6 @@
 import { Layout } from "../../components/Layout";
 import Link from "next/link";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import { GetStaticPaths, GetStaticProps } from "next";
 import { PostType } from "../../PostType";
 
 interface Props {
